@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <html>
 <head>
   <meta charset="utf-8">
@@ -22,15 +30,50 @@
       font-weight: normal;
       margin-bottom: 0;
     }
+    .table-font-color {
+      color: black;
+    }
   </style>
 </head>
 <body>
-  <div align="center">
+  <div align="center" class="aws-stuff">
     <h1>Congratulations!</h1>
     <h2>You have successfully created a pipeline that retrieved this source application from an Amazon S3 bucket and deployed it 
 	to three Amazon EC2 instances using AWS CodeDeploy.</h2>
     <p>For next steps, read the AWS CodePipeline Documentation.</p>
   </div>
+  <div class="row table-font-color">
+    <div class="col-xs-12">
+        <div class="panel">
+          <div class="panel-body">
+              <table class="table table-striped table-bordered table-responsive">
+                  <thead>
+                    <tr>
+                      <td>Names</td>
+                      <td>Score</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Dylan Coots</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>Caitin Brock</td>
+                      <td>100%</td>
+                    </tr>
+                    <tr>
+                      <td>Megan Vest</td>
+                      <td>100%</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+
+        </div>
+    </div>
+  </div>
+  
 </body>
 </html>
 
